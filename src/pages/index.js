@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
+import Checkout from "../components/checkout"
+
 const links = [
   {
     text: "Tutorial",
@@ -95,6 +97,7 @@ const IndexPage = () => (
         <br />
         Edit <code>src/pages/index.js</code> to update this page.
       </p>
+      <Checkout />
     </div>
     <ul className={styles.list}>
       {links.map(link => (
